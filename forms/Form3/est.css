@@ -1,25 +1,28 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 20px;
-    background-color: cadetblue;
+    background-color: white;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     color: #000000;
+    border-radius: 45px;
 }
 h1 {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }   
 form {
     max-width: 500px;
     margin: 0 auto;
-    background-color: coral;
+    background-color: #fcfae4;
     border: 3px solid black;
     font-size: 25px;
     font-weight: bold;
+    border-radius: 45px;
 }
 label {
      font-weight: bold;
@@ -34,13 +37,14 @@ input[type="number"]{
     font-weight: bold;
 } 
 button {
-    background-color: #4CAF50;
+    background-color: brown;
     border: 3px solid black;
     cursor: pointer;
     font-size: 25px;
     font-weight: bold;
     width: 350px;
     height: 50px;
+    border-radius: 45px;
  }  
  input[type="text"]{
     width: 350px;
@@ -48,7 +52,8 @@ button {
     background-color: aliceblue;
     border: 3px solid black;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     font-weight: bold;
+    border-radius: 45px;
  }
